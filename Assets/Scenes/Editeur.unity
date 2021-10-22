@@ -4408,7 +4408,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Demon
   Background: {fileID: 21300000, guid: dc163e91176b0a045bee909cfbfb8703, type: 3}
-  CharaList: []
+  CharaList:
+  - {fileID: 21300000, guid: 6d3d4290ed5251b43ab5e26a6102c1db, type: 3}
   SkinColor: []
   HeadList:
   - {fileID: 21300000, guid: d043d98a0a4bc8947b82e65d17bfe2cd, type: 3}
