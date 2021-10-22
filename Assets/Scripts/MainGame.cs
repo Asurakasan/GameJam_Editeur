@@ -24,11 +24,11 @@ public class MainGame : MonoBehaviour
 
     private int _charanumber;
     private int _headnumber;
-    private int _shirtnumber;
+    public int _shirtnumber;
     private int _pantsnumber;
-    public int _shoesnumber;
-    public int _racenumber;
-    public int _skincolor;
+    private int _shoesnumber;
+    private int _racenumber;
+    private int _skincolor;
 
     private float red;
     private float green;
@@ -36,9 +36,22 @@ public class MainGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _charanumber = 0;
+        _headnumber = 0;
+        _shirtnumber = 0;
+        _pantsnumber = 0;
+        _shoesnumber = 0;
         _racenumber = 0;
+        _skincolor = 0;
         _currentRace = Races[_racenumber];
         UpdateHead();
+        UpdateBG();
+        UpdateChara();
+        UpdateSkin();
+        UpdateHead();
+        UpdateShirt();
+        UpdatePants();
+        UpdateShoes();
     }
 
 
@@ -146,17 +159,17 @@ public class MainGame : MonoBehaviour
     public void OnclickShirtMoins()
     {
         if (_charanumber == 0)
-        {
+        { 
             if (_shirtnumber != 0)
             {
-                _shirtnumber++;
+                _shirtnumber--;
             }
         }
         if (_charanumber == 1)
         {
             if (_shirtnumber > 6)
             {
-                _shirtnumber++;
+                _shirtnumber--;
             }
         }
         UpdateShirt();
@@ -176,7 +189,7 @@ public class MainGame : MonoBehaviour
 
     public void OnclickPantsPlus()
     {
-        if (_pantsnumber != 2)
+        if (_pantsnumber != 7)
         {
             _pantsnumber++;
         }
@@ -205,7 +218,7 @@ public class MainGame : MonoBehaviour
 
     public void OnclickShoesPlus()
     {
-        if (_shoesnumber != 2)
+        if (_shoesnumber != 18)
         {
             _shoesnumber++;
         }
