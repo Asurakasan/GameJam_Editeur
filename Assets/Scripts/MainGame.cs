@@ -228,30 +228,35 @@ public class MainGame : MonoBehaviour
         _racenumber = 0;
         _currentRace = Races[_racenumber];
         UpdateBG();
+        UpdateChara();
     }
     public void OnclickDemon()
     {
         _racenumber = 1;
         _currentRace = Races[_racenumber];
         UpdateBG();
+        UpdateChara();
     }
     public void OnclickAnge()
     {
         _racenumber = 2;
         _currentRace = Races[_racenumber];
         UpdateBG();
+        UpdateChara();
     }
     public void OnclickSirene()
     {
         _racenumber = 3;
         _currentRace = Races[_racenumber];
         UpdateBG();
+        UpdateChara();
     }
     public void OnclickElfe()
     {
         _racenumber = 4;
         _currentRace = Races[_racenumber];
         UpdateBG();
+        UpdateChara();
     }
 
 
