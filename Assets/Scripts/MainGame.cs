@@ -24,16 +24,18 @@ public class MainGame : MonoBehaviour
 
     private int _charanumber;
     private int _headnumber;
-    public int _shirtnumber;
+    private int _shirtnumber;
     private int _pantsnumber;
     private int _shoesnumber;
-    private int _racenumber;
+    public int _racenumber;
     private int _skincolor;
 
     private float red;
     private float green;
     private float blue;
     // Start is called before the first frame update
+   
+
     void Start()
     {
         _charanumber = 0;
@@ -52,6 +54,17 @@ public class MainGame : MonoBehaviour
         UpdateShirt();
         UpdatePants();
         UpdateShoes();
+
+        red = Random.Range(0f, 1f);
+        green = Random.Range(0f, 1f);
+        blue = Random.Range(0f, 1f);
+
+        Eyes.color = new Color(red, green, blue, 1);
+        Head.color = new Color(red, green, blue, 1);
+        Shirt.color = new Color(red, green, blue, 1);
+        Pants.color = new Color(red, green, blue, 1);
+        Shoes.color = new Color(red, green, blue, 1);
+
     }
 
 
@@ -108,7 +121,7 @@ public class MainGame : MonoBehaviour
 
     public void OnclickHeadPlus()
     {
-        if (_headnumber != 2)
+        if (_headnumber != 12)
         {
             _headnumber++;
         }

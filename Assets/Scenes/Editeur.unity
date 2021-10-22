@@ -553,17 +553,18 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1799895626}
+  - {fileID: 1982102826}
   - {fileID: 1434043895}
   - {fileID: 1768335536}
   - {fileID: 1491995767}
   - {fileID: 832222672}
-  - {fileID: 1914492309}
-  - {fileID: 1982102826}
-  - {fileID: 701269421}
   - {fileID: 1679539208}
+  - {fileID: 701269421}
   - {fileID: 1605141330}
   - {fileID: 1580974522}
   - {fileID: 1594616735}
+  - {fileID: 479371094}
+  - {fileID: 1914492309}
   - {fileID: 1102181873}
   - {fileID: 2050393967}
   - {fileID: 1401935610}
@@ -746,15 +747,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Ange
   Background: {fileID: 21300000, guid: 4c4d3d3f3a892ea4db863bd7073526d6, type: 3}
-  CharaList: []
-  SkinColor: []
+  CharaList:
+  - {fileID: 21300000, guid: ad9a4bf6c168045458e272793d9e893a, type: 3}
+  - {fileID: 21300000, guid: 2fdb5083bee4b84499d31ec93043466e, type: 3}
+  SkinColor:
+  - {fileID: 21300000, guid: ad9a4bf6c168045458e272793d9e893a, type: 3}
+  - {fileID: 21300000, guid: 6327d41e93bcdb144a16beb877f30fbc, type: 3}
+  - {fileID: 21300000, guid: 59e5124aff367f941bff2de50c531d82, type: 3}
+  - {fileID: 21300000, guid: 57d288983a4e5cb4898d16921764d634, type: 3}
+  - {fileID: 21300000, guid: 2fdb5083bee4b84499d31ec93043466e, type: 3}
+  - {fileID: 21300000, guid: bcc5361b9ba864c49b2c566c420a042f, type: 3}
+  - {fileID: 21300000, guid: 7fe0c4c2f57a90f458e0cc342772e7c8, type: 3}
+  - {fileID: 21300000, guid: b28f7c1abc3080e4a8fbe8216f5a6a25, type: 3}
   HeadList:
-  - {fileID: 21300000, guid: d043d98a0a4bc8947b82e65d17bfe2cd, type: 3}
-  - {fileID: 21300000, guid: 2c67340322877d444b734cf2f22e5c35, type: 3}
-  - {fileID: 21300000, guid: 0587ebaf0c2246442b88aa3efb665689, type: 3}
-  ShirtList: []
-  PantsList: []
-  ShoesList: []
+  - {fileID: 21300000, guid: 3567e61401070f847b9e058da4277f06, type: 3}
+  - {fileID: 21300000, guid: c2bed06c8d341c94f894969f675226a2, type: 3}
+  - {fileID: 21300000, guid: 4d8e0b794187dac47a89b5789fb0923a, type: 3}
+  - {fileID: 21300000, guid: c1e7834ab49defa4883950055f7e4f23, type: 3}
+  - {fileID: 21300000, guid: 9459709461cf67544961c3e347e972e2, type: 3}
+  - {fileID: 21300000, guid: 1da3015844a3bb24494a48600f14dcf6, type: 3}
+  - {fileID: 21300000, guid: 49c71b9b1c2aad44c9c9ffb10e64f8ee, type: 3}
+  - {fileID: 21300000, guid: b4bb408da0a890c408f28439fdc48b78, type: 3}
+  - {fileID: 21300000, guid: 81c349369f404324bb549bd6a6f9def3, type: 3}
+  - {fileID: 21300000, guid: 4f7b180b5de84cc47962774adf96f605, type: 3}
+  - {fileID: 21300000, guid: c27dc238f3183ae48b3d0f26aef0a541, type: 3}
+  - {fileID: 21300000, guid: 6b81d7aea79f5df4e9f8d78ec3c5c857, type: 3}
+  - {fileID: 21300000, guid: 015348b41d941c14182a008944e938d7, type: 3}
+  ShirtList:
+  - {fileID: 21300000, guid: 0303260fded0fdf4b94dd2085b5988aa, type: 3}
+  - {fileID: 21300000, guid: b6f11ac6e68371d4c9e52b04ed850797, type: 3}
+  - {fileID: 21300000, guid: 9c930ce823720cf4a91fd5f525c55ab6, type: 3}
+  - {fileID: 21300000, guid: c003086bbee55ab46bda1667cbed564f, type: 3}
+  - {fileID: 21300000, guid: c1fbeda77585d7e49b43d5656bb351dc, type: 3}
+  - {fileID: 21300000, guid: 847e8e442701f1f44be37cb4018c5d37, type: 3}
+  - {fileID: 21300000, guid: 4e62a26119c2ac64ea60067433f6ade6, type: 3}
+  - {fileID: 21300000, guid: f933e258d6bd88e43910442b007508fc, type: 3}
+  - {fileID: 21300000, guid: 212699b69126acf4d91485141d15ca7f, type: 3}
+  - {fileID: 21300000, guid: 372202bc9bb0f154490de621645c6df8, type: 3}
+  - {fileID: 21300000, guid: e58f0292c8a94b448ae4954de44e4e0f, type: 3}
+  - {fileID: 21300000, guid: 4a533d01afabc124f860a11e5e7ec5d8, type: 3}
+  - {fileID: 21300000, guid: b36a4668670860842804fea877fb57df, type: 3}
+  - {fileID: 21300000, guid: 6c869ae4275192242a29d22517d939d1, type: 3}
+  - {fileID: 21300000, guid: 8f69ed53a4f103144b062fc34301abfc, type: 3}
+  PantsList:
+  - {fileID: 21300000, guid: b48778baf320c5d4b9e05dae3fd9af79, type: 3}
+  - {fileID: 21300000, guid: 07f05091f7f6cdd489173e7d1147a286, type: 3}
+  - {fileID: 21300000, guid: d2563b3f9ea3d274fb64a5e7a495b04b, type: 3}
+  - {fileID: 21300000, guid: 48be27551bebf7d43952a65d9ff04507, type: 3}
+  - {fileID: 21300000, guid: e793ab28de633f649b30832b199d0eb0, type: 3}
+  - {fileID: 21300000, guid: 3c565161441d4324a861a11af310b6af, type: 3}
+  - {fileID: 21300000, guid: 4764cfc11f979ea4296b2964a0b43f8d, type: 3}
+  ShoesList:
+  - {fileID: 21300000, guid: 26601be4f7ab1394baf5fa4ede469be9, type: 3}
+  - {fileID: 21300000, guid: b1c9e654a43434a46ac13faddaf4fbf4, type: 3}
+  - {fileID: 21300000, guid: fd3e0e42d99e4f24ba8a24a322429212, type: 3}
+  - {fileID: 21300000, guid: bc9961950cbc61a4ba5b8f7515a23d8c, type: 3}
+  - {fileID: 21300000, guid: a7866d40c659cfb4cbca460424ea14aa, type: 3}
+  - {fileID: 21300000, guid: c21ad1e30520a0544af751e716eb0fa1, type: 3}
+  - {fileID: 21300000, guid: 1512667f0d007ef4298dbc3d24136fff, type: 3}
+  - {fileID: 21300000, guid: 95718874be61fbb4487240e009b21255, type: 3}
+  - {fileID: 21300000, guid: 29a992e7cbbc61d4a9f555afa74630f3, type: 3}
+  - {fileID: 21300000, guid: 667020b85a3b21945b2907042a8e958b, type: 3}
+  - {fileID: 21300000, guid: 2f66a14a724b5d64396fa599ccbcc007, type: 3}
+  - {fileID: 21300000, guid: 8be8905089cfbac49b3dc6b46d2d0b26, type: 3}
+  - {fileID: 21300000, guid: aebc63c5594ce0a48a0a5bebc385812c, type: 3}
+  - {fileID: 21300000, guid: 6cad00c6674c8d3498023a07b3e09284, type: 3}
+  - {fileID: 21300000, guid: 4778789d7ed9edf4bb268dbd95db473e, type: 3}
+  - {fileID: 21300000, guid: b86a2e18512c5ab42bafa82426a7477b, type: 3}
+  - {fileID: 21300000, guid: ff7ad5615cf630547bc80a3dffae5110, type: 3}
+  - {fileID: 21300000, guid: 4b42c2a6575d2ba4bb25f217750782c4, type: 3}
   HideElement:
   - {fileID: 1768335535}
   - {fileID: 1914492308}
@@ -764,6 +825,17 @@ MonoBehaviour:
   - {fileID: 1580974521}
   - {fileID: 1679539207}
   - {fileID: 701269420}
+  - {fileID: 399557753}
+  - {fileID: 915882775}
+  - {fileID: 1614302563}
+  - {fileID: 582660148}
+  - {fileID: 1291507013}
+  - {fileID: 1716248155}
+  - {fileID: 784728705}
+  - {fileID: 47963838}
+  - {fileID: 741232}
+  - {fileID: 2024300205}
+  - {fileID: 479371093}
 --- !u!4 &193532561
 Transform:
   m_ObjectHideFlags: 0
@@ -1020,8 +1092,8 @@ Transform:
   - {fileID: 2090114775}
   - {fileID: 1498198458}
   - {fileID: 193532561}
-  - {fileID: 442249726}
   - {fileID: 1879545068}
+  - {fileID: 442249726}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1445,7 +1517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4811321, g: 0.24737452, b: 0.24737452, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1792,13 +1864,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Sirene
   Background: {fileID: 21300000, guid: be56199b5336bca4797ccc3109e8b9ed, type: 3}
-  CharaList: []
-  SkinColor: []
+  CharaList:
+  - {fileID: 21300000, guid: 859764805b8f3db4cbb35466e4b66801, type: 3}
+  - {fileID: 21300000, guid: 68dc2b069d2133f40861f4accd8027bf, type: 3}
+  SkinColor:
+  - {fileID: 21300000, guid: 859764805b8f3db4cbb35466e4b66801, type: 3}
+  - {fileID: 21300000, guid: 553897eee020f2243bfe9033bb5e8eb1, type: 3}
+  - {fileID: 21300000, guid: f7e26c67ac0fe3b42ba553eb2298c952, type: 3}
+  - {fileID: 21300000, guid: 429c654026b608245bd8839f620f4dac, type: 3}
+  - {fileID: 21300000, guid: 68dc2b069d2133f40861f4accd8027bf, type: 3}
+  - {fileID: 21300000, guid: 3eea8486a77c02c45b8b0a0c12a1e55a, type: 3}
+  - {fileID: 21300000, guid: 80924fd24f0df234daa77b2a7a2911bd, type: 3}
+  - {fileID: 21300000, guid: 25acaa4942aefc1478fd2c4fed7a3e69, type: 3}
   HeadList:
-  - {fileID: 21300000, guid: d043d98a0a4bc8947b82e65d17bfe2cd, type: 3}
-  - {fileID: 21300000, guid: 2c67340322877d444b734cf2f22e5c35, type: 3}
-  - {fileID: 21300000, guid: 0587ebaf0c2246442b88aa3efb665689, type: 3}
-  ShirtList: []
+  - {fileID: 21300000, guid: 3567e61401070f847b9e058da4277f06, type: 3}
+  - {fileID: 21300000, guid: c2bed06c8d341c94f894969f675226a2, type: 3}
+  - {fileID: 21300000, guid: 4d8e0b794187dac47a89b5789fb0923a, type: 3}
+  - {fileID: 21300000, guid: c1e7834ab49defa4883950055f7e4f23, type: 3}
+  - {fileID: 21300000, guid: 9459709461cf67544961c3e347e972e2, type: 3}
+  - {fileID: 21300000, guid: 1da3015844a3bb24494a48600f14dcf6, type: 3}
+  - {fileID: 21300000, guid: 49c71b9b1c2aad44c9c9ffb10e64f8ee, type: 3}
+  - {fileID: 21300000, guid: b4bb408da0a890c408f28439fdc48b78, type: 3}
+  - {fileID: 21300000, guid: 81c349369f404324bb549bd6a6f9def3, type: 3}
+  - {fileID: 21300000, guid: 4f7b180b5de84cc47962774adf96f605, type: 3}
+  - {fileID: 21300000, guid: c27dc238f3183ae48b3d0f26aef0a541, type: 3}
+  - {fileID: 21300000, guid: 6b81d7aea79f5df4e9f8d78ec3c5c857, type: 3}
+  - {fileID: 21300000, guid: 015348b41d941c14182a008944e938d7, type: 3}
+  ShirtList:
+  - {fileID: 21300000, guid: 0303260fded0fdf4b94dd2085b5988aa, type: 3}
+  - {fileID: 21300000, guid: b6f11ac6e68371d4c9e52b04ed850797, type: 3}
+  - {fileID: 21300000, guid: 9c930ce823720cf4a91fd5f525c55ab6, type: 3}
+  - {fileID: 21300000, guid: c003086bbee55ab46bda1667cbed564f, type: 3}
+  - {fileID: 21300000, guid: c1fbeda77585d7e49b43d5656bb351dc, type: 3}
+  - {fileID: 21300000, guid: 847e8e442701f1f44be37cb4018c5d37, type: 3}
+  - {fileID: 21300000, guid: 4e62a26119c2ac64ea60067433f6ade6, type: 3}
+  - {fileID: 21300000, guid: f933e258d6bd88e43910442b007508fc, type: 3}
+  - {fileID: 21300000, guid: 212699b69126acf4d91485141d15ca7f, type: 3}
+  - {fileID: 21300000, guid: 372202bc9bb0f154490de621645c6df8, type: 3}
+  - {fileID: 21300000, guid: e58f0292c8a94b448ae4954de44e4e0f, type: 3}
+  - {fileID: 21300000, guid: 4a533d01afabc124f860a11e5e7ec5d8, type: 3}
+  - {fileID: 21300000, guid: b36a4668670860842804fea877fb57df, type: 3}
+  - {fileID: 21300000, guid: 6c869ae4275192242a29d22517d939d1, type: 3}
+  - {fileID: 21300000, guid: 8f69ed53a4f103144b062fc34301abfc, type: 3}
   PantsList: []
   ShoesList: []
   HideElement:
@@ -1807,6 +1914,13 @@ MonoBehaviour:
   - {fileID: 1491995766}
   - {fileID: 1768335535}
   - {fileID: 1914492308}
+  - {fileID: 479371093}
+  - {fileID: 399557753}
+  - {fileID: 915882775}
+  - {fileID: 1614302563}
+  - {fileID: 582660148}
+  - {fileID: 47963838}
+  - {fileID: 741232}
   UnHide:
   - {fileID: 1605141329}
   - {fileID: 1580974521}
@@ -1822,7 +1936,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 225500123}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &454134292
 GameObject:
@@ -1890,6 +2004,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &479371093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 479371094}
+  - component: {fileID: 479371096}
+  - component: {fileID: 479371095}
+  m_Layer: 5
+  m_Name: Aureole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &479371094
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479371093}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 166713271}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2, y: 0.000015259}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &479371095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479371093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 165d6d77628286d4a8d85382949e0c2b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &479371096
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479371093}
+  m_CullTransparentMesh: 1
 --- !u!1 &481947464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,7 +2254,7 @@ MonoBehaviour:
   Pants: {fileID: 329438889}
   Shoes: {fileID: 675003887}
   Eyes: {fileID: 1982102827}
-  _shirtnumber: 0
+  _racenumber: 0
 --- !u!4 &503843738
 Transform:
   m_ObjectHideFlags: 0
@@ -2500,7 +2689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4811321, g: 0.24737452, b: 0.24737452, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2629,7 +2818,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701269420}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3092,7 +3281,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 166713271}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3119,7 +3308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a4acda7def02e084d92b482d45d48517, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ad9a4bf6c168045458e272793d9e893a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3776,7 +3965,7 @@ Transform:
   m_LocalScale: {x: 1.977343, y: 1.977343, z: 1.977343}
   m_Children: []
   m_Father: {fileID: 166713271}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1124751891
 GameObject:
@@ -4283,7 +4472,7 @@ RectTransform:
   - {fileID: 1939026984}
   - {fileID: 948966473}
   m_Father: {fileID: 166713271}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4453,7 +4642,7 @@ RectTransform:
   m_LocalScale: {x: 1.17, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 166713271}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4661,12 +4850,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 166713271}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 12.726021, y: 212.64}
-  m_SizeDelta: {x: 441.75, y: 200.26}
+  m_AnchoredPosition: {x: 12.726021, y: 0.000045776}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1491995768
 MonoBehaviour:
@@ -4688,7 +4877,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 923282db6e0e2ae409a2d93dff1b6d37, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4749,7 +4938,20 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 09948d440d0ed4b418829f75052e6ce8, type: 3}
   - {fileID: 21300000, guid: fe4614aef35713d4f8f1faccf653f7a4, type: 3}
   - {fileID: 21300000, guid: 6d8e3d56d58fcd14aa75813badb489cb, type: 3}
-  HeadList: []
+  HeadList:
+  - {fileID: 21300000, guid: 3567e61401070f847b9e058da4277f06, type: 3}
+  - {fileID: 21300000, guid: c2bed06c8d341c94f894969f675226a2, type: 3}
+  - {fileID: 21300000, guid: 4d8e0b794187dac47a89b5789fb0923a, type: 3}
+  - {fileID: 21300000, guid: c1e7834ab49defa4883950055f7e4f23, type: 3}
+  - {fileID: 21300000, guid: 9459709461cf67544961c3e347e972e2, type: 3}
+  - {fileID: 21300000, guid: 1da3015844a3bb24494a48600f14dcf6, type: 3}
+  - {fileID: 21300000, guid: 49c71b9b1c2aad44c9c9ffb10e64f8ee, type: 3}
+  - {fileID: 21300000, guid: b4bb408da0a890c408f28439fdc48b78, type: 3}
+  - {fileID: 21300000, guid: 81c349369f404324bb549bd6a6f9def3, type: 3}
+  - {fileID: 21300000, guid: 4f7b180b5de84cc47962774adf96f605, type: 3}
+  - {fileID: 21300000, guid: c27dc238f3183ae48b3d0f26aef0a541, type: 3}
+  - {fileID: 21300000, guid: 6b81d7aea79f5df4e9f8d78ec3c5c857, type: 3}
+  - {fileID: 21300000, guid: 015348b41d941c14182a008944e938d7, type: 3}
   ShirtList:
   - {fileID: 21300000, guid: f933e258d6bd88e43910442b007508fc, type: 3}
   - {fileID: 21300000, guid: 212699b69126acf4d91485141d15ca7f, type: 3}
@@ -4795,12 +4997,16 @@ MonoBehaviour:
   HideElement:
   - {fileID: 701269420}
   - {fileID: 1491995766}
+  - {fileID: 479371093}
+  - {fileID: 399557753}
+  - {fileID: 915882775}
+  - {fileID: 741232}
   UnHide:
   - {fileID: 1768335535}
   - {fileID: 1914492308}
-  - {fileID: 1605141329}
-  - {fileID: 1580974521}
-  - {fileID: 1679539207}
+  - {fileID: 1614302563}
+  - {fileID: 582660148}
+  - {fileID: 47963838}
 --- !u!4 &1498198458
 Transform:
   m_ObjectHideFlags: 0
@@ -4977,7 +5183,7 @@ RectTransform:
   m_Children:
   - {fileID: 2057143842}
   m_Father: {fileID: 166713271}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5012,7 +5218,7 @@ Transform:
   m_LocalScale: {x: 1.977343, y: 1.977343, z: 1.977343}
   m_Children: []
   m_Father: {fileID: 166713271}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1605141329
 GameObject:
@@ -5043,7 +5249,7 @@ RectTransform:
   m_Children:
   - {fileID: 744010377}
   m_Father: {fileID: 166713271}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5557,7 +5763,7 @@ RectTransform:
   m_Children:
   - {fileID: 329438888}
   m_Father: {fileID: 166713271}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5885,12 +6091,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 166713271}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 147.99994, y: 29.269005}
-  m_SizeDelta: {x: 264.7262, y: 50}
+  m_AnchoredPosition: {x: -2, y: 0.000061035}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1768335537
 MonoBehaviour:
@@ -5912,7 +6118,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 60537571613dadf43bab03f44089ecd1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6043,7 +6249,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.9999847, y: 0.000011444092}
+  m_AnchoredPosition: {x: 0.000015259, y: 0.000072479}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1799895627
@@ -6066,7 +6272,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4c4d3d3f3a892ea4db863bd7073526d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66163a40ef94d0b46a6ac3e8fa165b66, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6194,22 +6400,90 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Elfe
   Background: {fileID: 21300000, guid: 2d01ebd14f6306640a62fe1a87a486ef, type: 3}
-  CharaList: []
-  SkinColor: []
+  CharaList:
+  - {fileID: 21300000, guid: aa2ca59a65d9d3a4aa5d3c37f2492899, type: 3}
+  - {fileID: 21300000, guid: 7ebaf872e5484ec43b95a39221a9280b, type: 3}
+  SkinColor:
+  - {fileID: 21300000, guid: aa2ca59a65d9d3a4aa5d3c37f2492899, type: 3}
+  - {fileID: 21300000, guid: 94643a125a1cbb94093bcc3db82a1072, type: 3}
+  - {fileID: 21300000, guid: eb37e25bc2a969348bd12281d27c1e0c, type: 3}
+  - {fileID: 21300000, guid: 68e214dbf31753a49a77734ae7d3ecde, type: 3}
+  - {fileID: 21300000, guid: 7ebaf872e5484ec43b95a39221a9280b, type: 3}
+  - {fileID: 21300000, guid: b9d2952b04a83ed40b3bc3820d10a218, type: 3}
+  - {fileID: 21300000, guid: 467cf73eee6e91b44ae637af0e2f13e8, type: 3}
+  - {fileID: 21300000, guid: f4f64d5b4f38c9e49b3ff06764c7b9f8, type: 3}
   HeadList:
-  - {fileID: 21300000, guid: d043d98a0a4bc8947b82e65d17bfe2cd, type: 3}
-  - {fileID: 21300000, guid: 2c67340322877d444b734cf2f22e5c35, type: 3}
-  - {fileID: 21300000, guid: 0587ebaf0c2246442b88aa3efb665689, type: 3}
-  ShirtList: []
-  PantsList: []
-  ShoesList: []
+  - {fileID: 21300000, guid: 3567e61401070f847b9e058da4277f06, type: 3}
+  - {fileID: 21300000, guid: c2bed06c8d341c94f894969f675226a2, type: 3}
+  - {fileID: 21300000, guid: 4d8e0b794187dac47a89b5789fb0923a, type: 3}
+  - {fileID: 21300000, guid: c1e7834ab49defa4883950055f7e4f23, type: 3}
+  - {fileID: 21300000, guid: 9459709461cf67544961c3e347e972e2, type: 3}
+  - {fileID: 21300000, guid: 1da3015844a3bb24494a48600f14dcf6, type: 3}
+  - {fileID: 21300000, guid: 49c71b9b1c2aad44c9c9ffb10e64f8ee, type: 3}
+  - {fileID: 21300000, guid: b4bb408da0a890c408f28439fdc48b78, type: 3}
+  - {fileID: 21300000, guid: 81c349369f404324bb549bd6a6f9def3, type: 3}
+  - {fileID: 21300000, guid: 4f7b180b5de84cc47962774adf96f605, type: 3}
+  - {fileID: 21300000, guid: c27dc238f3183ae48b3d0f26aef0a541, type: 3}
+  - {fileID: 21300000, guid: 6b81d7aea79f5df4e9f8d78ec3c5c857, type: 3}
+  - {fileID: 21300000, guid: 015348b41d941c14182a008944e938d7, type: 3}
+  ShirtList:
+  - {fileID: 21300000, guid: 0303260fded0fdf4b94dd2085b5988aa, type: 3}
+  - {fileID: 21300000, guid: b6f11ac6e68371d4c9e52b04ed850797, type: 3}
+  - {fileID: 21300000, guid: 9c930ce823720cf4a91fd5f525c55ab6, type: 3}
+  - {fileID: 21300000, guid: c003086bbee55ab46bda1667cbed564f, type: 3}
+  - {fileID: 21300000, guid: c1fbeda77585d7e49b43d5656bb351dc, type: 3}
+  - {fileID: 21300000, guid: 847e8e442701f1f44be37cb4018c5d37, type: 3}
+  - {fileID: 21300000, guid: 4e62a26119c2ac64ea60067433f6ade6, type: 3}
+  - {fileID: 21300000, guid: f933e258d6bd88e43910442b007508fc, type: 3}
+  - {fileID: 21300000, guid: 212699b69126acf4d91485141d15ca7f, type: 3}
+  - {fileID: 21300000, guid: 372202bc9bb0f154490de621645c6df8, type: 3}
+  - {fileID: 21300000, guid: e58f0292c8a94b448ae4954de44e4e0f, type: 3}
+  - {fileID: 21300000, guid: 4a533d01afabc124f860a11e5e7ec5d8, type: 3}
+  - {fileID: 21300000, guid: b36a4668670860842804fea877fb57df, type: 3}
+  - {fileID: 21300000, guid: 6c869ae4275192242a29d22517d939d1, type: 3}
+  - {fileID: 21300000, guid: 8f69ed53a4f103144b062fc34301abfc, type: 3}
+  PantsList:
+  - {fileID: 21300000, guid: b48778baf320c5d4b9e05dae3fd9af79, type: 3}
+  - {fileID: 21300000, guid: 07f05091f7f6cdd489173e7d1147a286, type: 3}
+  - {fileID: 21300000, guid: d2563b3f9ea3d274fb64a5e7a495b04b, type: 3}
+  - {fileID: 21300000, guid: 48be27551bebf7d43952a65d9ff04507, type: 3}
+  - {fileID: 21300000, guid: e793ab28de633f649b30832b199d0eb0, type: 3}
+  - {fileID: 21300000, guid: 3c565161441d4324a861a11af310b6af, type: 3}
+  - {fileID: 21300000, guid: 4764cfc11f979ea4296b2964a0b43f8d, type: 3}
+  ShoesList:
+  - {fileID: 21300000, guid: 26601be4f7ab1394baf5fa4ede469be9, type: 3}
+  - {fileID: 21300000, guid: b1c9e654a43434a46ac13faddaf4fbf4, type: 3}
+  - {fileID: 21300000, guid: fd3e0e42d99e4f24ba8a24a322429212, type: 3}
+  - {fileID: 21300000, guid: bc9961950cbc61a4ba5b8f7515a23d8c, type: 3}
+  - {fileID: 21300000, guid: a7866d40c659cfb4cbca460424ea14aa, type: 3}
+  - {fileID: 21300000, guid: c21ad1e30520a0544af751e716eb0fa1, type: 3}
+  - {fileID: 21300000, guid: 1512667f0d007ef4298dbc3d24136fff, type: 3}
+  - {fileID: 21300000, guid: 95718874be61fbb4487240e009b21255, type: 3}
+  - {fileID: 21300000, guid: 29a992e7cbbc61d4a9f555afa74630f3, type: 3}
+  - {fileID: 21300000, guid: 667020b85a3b21945b2907042a8e958b, type: 3}
+  - {fileID: 21300000, guid: 2f66a14a724b5d64396fa599ccbcc007, type: 3}
+  - {fileID: 21300000, guid: 8be8905089cfbac49b3dc6b46d2d0b26, type: 3}
+  - {fileID: 21300000, guid: aebc63c5594ce0a48a0a5bebc385812c, type: 3}
+  - {fileID: 21300000, guid: 6cad00c6674c8d3498023a07b3e09284, type: 3}
+  - {fileID: 21300000, guid: 4778789d7ed9edf4bb268dbd95db473e, type: 3}
+  - {fileID: 21300000, guid: b86a2e18512c5ab42bafa82426a7477b, type: 3}
+  - {fileID: 21300000, guid: ff7ad5615cf630547bc80a3dffae5110, type: 3}
+  - {fileID: 21300000, guid: 4b42c2a6575d2ba4bb25f217750782c4, type: 3}
   HideElement:
   - {fileID: 1768335535}
   - {fileID: 1491995766}
   - {fileID: 1914492308}
+  - {fileID: 479371093}
   UnHide:
   - {fileID: 1605141329}
   - {fileID: 1580974521}
+  - {fileID: 399557753}
+  - {fileID: 915882775}
+  - {fileID: 1614302563}
+  - {fileID: 582660148}
+  - {fileID: 47963838}
+  - {fileID: 741232}
+  - {fileID: 329438887}
   - {fileID: 1679539207}
   - {fileID: 701269420}
 --- !u!4 &1879545068
@@ -6224,7 +6498,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 225500123}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1885320052
 GameObject:
@@ -6337,12 +6611,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 166713271}
-  m_RootOrder: 5
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.3072395, y: 461.40002}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 12.726, y: 16}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1914492310
 MonoBehaviour:
@@ -6364,7 +6638,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7c7f30c30e391a14386e29fbf1f1b869, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6624,12 +6898,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 166713271}
-  m_RootOrder: 6
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000076294, y: 337}
-  m_SizeDelta: {x: 80.292, y: 76.791}
+  m_AnchoredPosition: {x: -0.2855, y: 367.08}
+  m_SizeDelta: {x: 68.3031, y: 27.293}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1982102827
 MonoBehaviour:
@@ -6835,7 +7109,7 @@ RectTransform:
   m_Children:
   - {fileID: 257219190}
   m_Father: {fileID: 166713271}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6881,32 +7155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hide:
-  - {fileID: 1563308619}
-  - {fileID: 974789962}
-  - {fileID: 2024300205}
-  - {fileID: 784728705}
-  - {fileID: 47963838}
-  - {fileID: 1291507013}
-  - {fileID: 1716248155}
-  - {fileID: 1614302563}
-  - {fileID: 582660148}
-  - {fileID: 0}
-  - {fileID: 1054358968}
-  - {fileID: 717910346}
-  - {fileID: 1432831757}
-  - {fileID: 1460828109}
-  - {fileID: 226470733}
-  - {fileID: 0}
-  - {fileID: 109476873}
-  - {fileID: 1634284907}
-  - {fileID: 741232}
-  - {fileID: 399557753}
-  - {fileID: 915882775}
-  - {fileID: 481947464}
-  - {fileID: 221963018}
-  - {fileID: 1614469575}
-  - {fileID: 1939026983}
-  - {fileID: 948966472}
+  - {fileID: 1401935609}
+  - {fileID: 1434043894}
 --- !u!114 &2050393970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7057,14 +7307,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5377358, g: 0.34242612, b: 0.34242612, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 3567e61401070f847b9e058da4277f06, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7098,8 +7348,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000012398, y: 93.74}
-  m_SizeDelta: {x: 77.9845, y: 78.9417}
+  m_AnchoredPosition: {x: -4.4, y: -299.5}
+  m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2090114773
 GameObject:
@@ -7133,18 +7383,31 @@ MonoBehaviour:
   Name: Humain
   Background: {fileID: 21300000, guid: 66163a40ef94d0b46a6ac3e8fa165b66, type: 3}
   CharaList:
-  - {fileID: 21300000, guid: c76bac34a106f63429f00498b5cbe18c, type: 3}
-  - {fileID: 21300000, guid: aa50f1834e97b454e815462c188855c3, type: 3}
+  - {fileID: 21300000, guid: ad9a4bf6c168045458e272793d9e893a, type: 3}
+  - {fileID: 21300000, guid: 2fdb5083bee4b84499d31ec93043466e, type: 3}
   SkinColor:
-  - {fileID: 21300000, guid: c76bac34a106f63429f00498b5cbe18c, type: 3}
-  - {fileID: 21300000, guid: 35b1cdfc34c4f164a814b2432213250d, type: 3}
-  - {fileID: 21300000, guid: c20e026e98c4da24bb249589aee9c08e, type: 3}
-  - {fileID: 21300000, guid: 095afafa55b74834ab137c1ecd086228, type: 3}
-  - {fileID: 21300000, guid: aa50f1834e97b454e815462c188855c3, type: 3}
-  - {fileID: 21300000, guid: a73b1c79f96728440b51051e4c5e912e, type: 3}
-  - {fileID: 21300000, guid: 45138f8978b0dfd46b9d3a858918eb8f, type: 3}
-  - {fileID: 21300000, guid: ae11f37c0d133bb4fb47cd2dd8c46912, type: 3}
-  HeadList: []
+  - {fileID: 21300000, guid: ad9a4bf6c168045458e272793d9e893a, type: 3}
+  - {fileID: 21300000, guid: 6327d41e93bcdb144a16beb877f30fbc, type: 3}
+  - {fileID: 21300000, guid: 59e5124aff367f941bff2de50c531d82, type: 3}
+  - {fileID: 21300000, guid: 57d288983a4e5cb4898d16921764d634, type: 3}
+  - {fileID: 21300000, guid: 2fdb5083bee4b84499d31ec93043466e, type: 3}
+  - {fileID: 21300000, guid: bcc5361b9ba864c49b2c566c420a042f, type: 3}
+  - {fileID: 21300000, guid: 7fe0c4c2f57a90f458e0cc342772e7c8, type: 3}
+  - {fileID: 21300000, guid: b28f7c1abc3080e4a8fbe8216f5a6a25, type: 3}
+  HeadList:
+  - {fileID: 21300000, guid: 3567e61401070f847b9e058da4277f06, type: 3}
+  - {fileID: 21300000, guid: c2bed06c8d341c94f894969f675226a2, type: 3}
+  - {fileID: 21300000, guid: 4d8e0b794187dac47a89b5789fb0923a, type: 3}
+  - {fileID: 21300000, guid: c1e7834ab49defa4883950055f7e4f23, type: 3}
+  - {fileID: 21300000, guid: 9459709461cf67544961c3e347e972e2, type: 3}
+  - {fileID: 21300000, guid: 1da3015844a3bb24494a48600f14dcf6, type: 3}
+  - {fileID: 21300000, guid: 49c71b9b1c2aad44c9c9ffb10e64f8ee, type: 3}
+  - {fileID: 21300000, guid: b4bb408da0a890c408f28439fdc48b78, type: 3}
+  - {fileID: 21300000, guid: 81c349369f404324bb549bd6a6f9def3, type: 3}
+  - {fileID: 21300000, guid: 4f7b180b5de84cc47962774adf96f605, type: 3}
+  - {fileID: 21300000, guid: c27dc238f3183ae48b3d0f26aef0a541, type: 3}
+  - {fileID: 21300000, guid: 6b81d7aea79f5df4e9f8d78ec3c5c857, type: 3}
+  - {fileID: 21300000, guid: 015348b41d941c14182a008944e938d7, type: 3}
   ShirtList:
   - {fileID: 21300000, guid: f933e258d6bd88e43910442b007508fc, type: 3}
   - {fileID: 21300000, guid: 212699b69126acf4d91485141d15ca7f, type: 3}
@@ -7192,11 +7455,19 @@ MonoBehaviour:
   - {fileID: 1768335535}
   - {fileID: 1491995766}
   - {fileID: 1914492308}
+  - {fileID: 479371093}
   UnHide:
   - {fileID: 1605141329}
   - {fileID: 1580974521}
-  - {fileID: 1679539207}
-  - {fileID: 701269420}
+  - {fileID: 399557753}
+  - {fileID: 915882775}
+  - {fileID: 1614302563}
+  - {fileID: 582660148}
+  - {fileID: 1291507013}
+  - {fileID: 1716248155}
+  - {fileID: 784728705}
+  - {fileID: 47963838}
+  - {fileID: 741232}
 --- !u!4 &2090114775
 Transform:
   m_ObjectHideFlags: 0
