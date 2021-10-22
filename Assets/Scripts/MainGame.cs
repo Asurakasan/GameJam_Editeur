@@ -20,12 +20,15 @@ public class MainGame : MonoBehaviour
 
     public Image Shoes;
 
+    public Image Eyes;
+
     private int _charanumber;
     private int _headnumber;
     private int _shirtnumber;
     private int _pantsnumber;
     public int _shoesnumber;
     public int _racenumber;
+    public int _skincolor;
 
     private float red;
     private float green;
@@ -46,16 +49,11 @@ public class MainGame : MonoBehaviour
 
     public void UpdateChara()
     {
-        if (_charanumber == 0)
-        {
-            Character.color = new Color32(40, 169, 202, 100); ;
-        }
-        if (_charanumber == 1)
-        {
-            Character.color = new Color32(198, 87, 162, 100); ;
-        }
-        //Character.sprite = _currentRace.CharaList[_charanumber];
-
+        Character.sprite = _currentRace.CharaList[_charanumber];
+    }
+    public void UpdateSkin()
+    {
+        Character.sprite = _currentRace.SkinColor[_skincolor];
     }
     public void UpdateHead()
     {
@@ -212,6 +210,16 @@ public class MainGame : MonoBehaviour
 
     }
 
+    public void OnclickEyesColor()
+    {
+        red = Random.Range(0f, 1f);
+        green = Random.Range(0f, 1f);
+        blue = Random.Range(0f, 1f);
+
+        Eyes.color = new Color(red, green, blue, 1);
+
+    }
+
 
 
 
@@ -245,4 +253,55 @@ public class MainGame : MonoBehaviour
         _currentRace = Races[_racenumber];
         UpdateBG();
     }
+
+
+    public void OnclickSkin1()
+    {
+        if(_charanumber == 0)
+        {
+            _skincolor = 0;
+        }
+        if (_charanumber == 1)
+        {
+            _skincolor = 4;
+        }
+        UpdateSkin();
+    }
+    public void OnclickSkin2()
+    {
+        if (_charanumber == 0)
+        {
+            _skincolor = 1;
+        }
+        if (_charanumber == 1)
+        {
+            _skincolor = 5;
+        }
+        UpdateSkin();
+    }
+    public void OnclickSkin3()
+    {
+        if (_charanumber == 0)
+        {
+            _skincolor = 2;
+        }
+        if (_charanumber == 1)
+        {
+            _skincolor = 6;
+        }
+        UpdateSkin();
+    }
+    public void OnclickSkin4()
+    {
+        if (_charanumber == 0)
+        {
+            _skincolor = 3;
+        }
+        if (_charanumber == 1)
+        {
+            _skincolor = 7;
+        }
+        UpdateSkin();
+    }
+    
 }

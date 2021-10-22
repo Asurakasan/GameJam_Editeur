@@ -7,7 +7,9 @@ public class Race : MonoBehaviour
     public string Name;
 
     public Sprite Background;
+
     public Sprite[] CharaList;
+    public Sprite[] SkinColor;
 
     public Sprite[] HeadList;
     
@@ -18,6 +20,5 @@ public class Race : MonoBehaviour
     public Sprite[] PantsList;
 
     public Sprite[] ShoesList;
-
 
 }
