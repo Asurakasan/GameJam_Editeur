@@ -125,18 +125,39 @@ public class MainGame : MonoBehaviour
 
     public void OnclickShirtPlus()
     {
-        if (_shirtnumber != 2)
+        if (_charanumber == 0)
         {
-            _shirtnumber++;
+            if (_shirtnumber <= 6)
+            {
+               _shirtnumber++;
+            }
         }
+        if (_charanumber == 1)
+        {
+            if (_shirtnumber <= 13)
+            {
+                _shirtnumber++;
+            }
+        }
+
         UpdateShirt();
 
     }
     public void OnclickShirtMoins()
     {
-        if (_shirtnumber != 0)
+        if (_charanumber == 0)
         {
-            _shirtnumber--;
+            if (_shirtnumber != 0)
+            {
+                _shirtnumber++;
+            }
+        }
+        if (_charanumber == 1)
+        {
+            if (_shirtnumber > 6)
+            {
+                _shirtnumber++;
+            }
         }
         UpdateShirt();
 
@@ -229,6 +250,14 @@ public class MainGame : MonoBehaviour
         _currentRace = Races[_racenumber];
         UpdateBG();
         UpdateChara();
+        for (int i = 0; i < _currentRace.HideElement.Count; i++)
+        {
+            _currentRace.HideElement[i].SetActive(false);
+        }
+        for (int i = 0; i < _currentRace.UnHide.Count; i++)
+        {
+            _currentRace.UnHide[i].SetActive(true);
+        }
     }
     public void OnclickDemon()
     {
@@ -236,6 +265,14 @@ public class MainGame : MonoBehaviour
         _currentRace = Races[_racenumber];
         UpdateBG();
         UpdateChara();
+        for (int i = 0; i < _currentRace.HideElement.Count; i++)
+        {
+            _currentRace.HideElement[i].SetActive(false);
+        }
+        for (int i = 0; i < _currentRace.UnHide.Count; i++)
+        {
+            _currentRace.UnHide[i].SetActive(true);
+        }
     }
     public void OnclickAnge()
     {
@@ -243,6 +280,14 @@ public class MainGame : MonoBehaviour
         _currentRace = Races[_racenumber];
         UpdateBG();
         UpdateChara();
+        for (int i = 0; i < _currentRace.HideElement.Count; i++)
+        {
+            _currentRace.HideElement[i].SetActive(false);
+        }
+        for (int i = 0; i < _currentRace.UnHide.Count; i++)
+        {
+            _currentRace.UnHide[i].SetActive(true);
+        }
     }
     public void OnclickSirene()
     {
@@ -250,6 +295,14 @@ public class MainGame : MonoBehaviour
         _currentRace = Races[_racenumber];
         UpdateBG();
         UpdateChara();
+        for (int i = 0; i < _currentRace.HideElement.Count; i++)
+        {
+            _currentRace.HideElement[i].SetActive(false);
+        }
+        for (int i = 0; i < _currentRace.UnHide.Count; i++)
+        {
+            _currentRace.UnHide[i].SetActive(true);
+        }
     }
     public void OnclickElfe()
     {
@@ -257,6 +310,14 @@ public class MainGame : MonoBehaviour
         _currentRace = Races[_racenumber];
         UpdateBG();
         UpdateChara();
+        for (int i = 0; i < _currentRace.HideElement.Count; i++)
+        {
+            _currentRace.HideElement[i].SetActive(false);
+        }
+        for (int i = 0; i < _currentRace.UnHide.Count; i++)
+        {
+            _currentRace.UnHide[i].SetActive(true);
+        }
     }
 
 

@@ -21,4 +21,8 @@ public class Race : MonoBehaviour
 
     public Sprite[] ShoesList;
 
+    public List<GameObject> HideElement = new List<GameObject>();
+
+    public List<GameObject> UnHide = new List<GameObject>();
+
 }
