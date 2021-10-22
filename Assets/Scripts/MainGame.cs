@@ -18,10 +18,13 @@ public class MainGame : MonoBehaviour
 
     public Image Pants;
 
+    public Image Shoes;
+
     private int _charanumber;
     private int _headnumber;
     private int _shirtnumber;
     private int _pantsnumber;
+    public int _shoesnumber;
     public int _racenumber;
 
     private float red;
@@ -68,6 +71,11 @@ public class MainGame : MonoBehaviour
     {
         Pants.sprite = _currentRace.PantsList[_pantsnumber];
 
+    }
+
+    public void UpdateShoes()
+    {
+        Shoes.sprite = _currentRace.ShoesList[_shoesnumber];
     }
 
     public void OnclickHomme()
@@ -174,6 +182,38 @@ public class MainGame : MonoBehaviour
         Pants.color = new Color(red, green, blue, 1);
 
     }
+
+
+    public void OnclickShoesPlus()
+    {
+        if (_shoesnumber != 2)
+        {
+            _shoesnumber++;
+        }
+        UpdateShoes();
+
+    }
+    public void OnclickShoesMoins()
+    {
+        if (_shoesnumber != 0)
+        {
+            _shoesnumber--;
+        }
+        UpdateShoes();
+
+    }
+    public void OnclickShoesColor()
+    {
+        red = Random.Range(0f, 1f);
+        green = Random.Range(0f, 1f);
+        blue = Random.Range(0f, 1f);
+
+        Shoes.color = new Color(red, green, blue, 1);
+
+    }
+
+
+
 
     public void OnclickHumain()
     {

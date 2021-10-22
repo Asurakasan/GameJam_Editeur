@@ -16,6 +16,8 @@ public class Race : MonoBehaviour
     
 
     public Sprite[] PantsList;
-    
+
+    public Sprite[] ShoesList;
+
 
 }
