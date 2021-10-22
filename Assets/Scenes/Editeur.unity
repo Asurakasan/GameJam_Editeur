@@ -1121,7 +1121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Sirene
-  Background: {fileID: 0}
+  Background: {fileID: 21300000, guid: be56199b5336bca4797ccc3109e8b9ed, type: 3}
   CharaList: []
   HeadList:
   - {fileID: 21300000, guid: d043d98a0a4bc8947b82e65d17bfe2cd, type: 3}
@@ -4568,7 +4568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Humain
-  Background: {fileID: 0}
+  Background: {fileID: 21300000, guid: 66163a40ef94d0b46a6ac3e8fa165b66, type: 3}
   CharaList: []
   HeadList:
   - {fileID: 21300000, guid: d043d98a0a4bc8947b82e65d17bfe2cd, type: 3}
